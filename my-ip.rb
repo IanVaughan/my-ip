@@ -8,7 +8,7 @@ get '/' do
   ip
 end
 
-post '/update' do
+get '/update' do
   ip = request.ip
 end
 
