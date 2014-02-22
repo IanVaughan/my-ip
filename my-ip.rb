@@ -5,7 +5,7 @@ ip = 0
 
 get '/' do
   content_type :json
-  ip.to_json
+  ip
 end
 
 post '/update' do
