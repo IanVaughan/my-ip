@@ -14,7 +14,7 @@ end
 
 get %r{/([a-zA-Z]{6}/redirect)} do |c|
   key = c.split('/').first
-  redirect config[key]
+  redirect "http://#{config[key]}"
 end
 
 get %r{/([a-zA-Z]{6})} do |c|
