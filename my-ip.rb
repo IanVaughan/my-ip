@@ -9,6 +9,6 @@ get '/' do
 end
 
 post '/update' do
-  ip = params['ip']
+  ip = request.ip
 end
 
