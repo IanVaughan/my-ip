@@ -1,5 +1,9 @@
 require 'sinatra'
 require 'json'
+require 'pry'
+
+configure do
+end
 
 config = {}
 
